@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-align: center;
+    color: green;
+    font-size: 40px;
+}
+h2:hover::before{
+    content: " age -";
+}
+h2:hover::after{
+    content: " -pore ";
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+p::before{
+    content: '"';
+
+}
+p::after{
+    content: '"';
+
+}
+.button{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.click-class{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: #686de0;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.click-class::before{
+    content: "" ;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 15px;
+    transition: .5s;
+    z-index: -1;
+}
+.click-class:hover::before{
+    height: 100%; 
+}
+
+.button1{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.click-class1{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: #686de0;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.click-class1::before{
+    content: "" ;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 15px;
+    transition: .5s;
+    z-index: -1;
+}
+.click-class1:hover::before{
+    width: 100%; 
+}
+.button2{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.click-class2{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: #686de0;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.click-class2::before{
+    content: "" ;
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 15px;
+    transition: .5s;
+    z-index: -1;
+}
+.click-class2:hover::before{
+    height: 100%; 
+}
+.button3{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.click-class3{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: #686de0;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.click-class3::before{
+    content: "" ;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    border-radius: 15px;
+    transition: .5s;
+    z-index: -1;
+}
+.click-class3:hover::before{
+    width: 100%; 
+}
+.button4{
+    margin-top: 50px;
+    text-align: center;
+    
+
+}
+.click-class4{
+    font-size: 50px;
+    text-decoration: none;
+    background-color: #686de0;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.click-class4::before{
+    content: "" ;
+    height: 0%;
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    border-radius: 15px;
+    transition: .5s;
+    z-index: -1;
+}
+.click-class4:hover::before{
+    height: 100%;
+    width: 100%; 
+}
+
+ul{
+    margin-left: 40px;
+    list-style: none;
+
+}
+li{
+    font-size: 30px;
+
+}
+li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: red;
+}
